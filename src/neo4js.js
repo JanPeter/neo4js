@@ -1,6 +1,6 @@
 import { v1 as neo4j } from 'neo4j-driver';
 import Utils from './Utils';
-import uuid from 'node-uuid';
+import uuid from 'uuid';
 import Debug from 'debug';
 const debug = Debug('neo4js');
 
